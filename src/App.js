@@ -4,6 +4,11 @@ import  Row from './Row';
 import requests from './requests';
 import Banner from "./Banner";
 import Nav from "./Nav";
+//
+//import styled from 'styled-components';
+//import { Modal } from './components/Modal';
+//import { GlobalStyle } from './globalStyles';
+//
 
 function App() {
   return (
@@ -27,5 +32,47 @@ function App() {
     </div>
   );
 }
+
+// export default App;
+
+
+
+
+
+// const Container = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100vh;
+// `;
+
+// const Button = styled.button`
+//   min-width: 100px;
+//   padding: 16px 32px;
+//   border-radius: 4px;
+//   border: none;
+//   background: #141414;
+//   color: #fff;
+//   font-size: 24px;
+//   cursor: pointer;
+// `;
+
+// function App() {
+//   const [showModal, setShowModal] = useState(false);
+
+//   const openModal = () => {
+//     setShowModal(prev => !prev);
+//   };
+
+//   return (
+//     <>
+//       <Container>
+//         <Button onClick={openModal}>I'm a modal</Button>
+//         <Modal showModal={showModal} setShowModal={setShowModal} />
+//         <GlobalStyle />
+//       </Container>
+//     </>
+//   );
+// }
 
 export default App;
